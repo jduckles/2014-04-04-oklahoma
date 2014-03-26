@@ -10,6 +10,7 @@ enddate: 2014-04-05
 latlng: 35.183121,-97.441238
 registration: restricted
 instructor: ["Jonah Duckles", "Emily McTavish"]
+helpers: ["Mark Stacy", "Mark Laufersweiler"]
 contact: jduckles@ou.edu
 ---
 <!--
@@ -46,6 +47,13 @@ contact: jduckles@ou.edu
 </p>
 {% endif %}
 
+{% if page.helpers %}
+<p>
+ <strong>Helpers:</strong>
+ {{page.helpers | join: ', ' %}}
+</p>
+
+{% endif %}
 <!--
     Modify this block to reflect the target audience for your bootcamp.
     In particular, if it is only open to people from a particular institution,
