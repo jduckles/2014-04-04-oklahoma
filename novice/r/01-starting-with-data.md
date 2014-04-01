@@ -1,5 +1,6 @@
 ---
 layout: lesson
+root: ../..
 ---
 
 ## Analyzing Patient Data

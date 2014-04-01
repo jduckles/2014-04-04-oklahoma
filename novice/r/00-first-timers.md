@@ -1,5 +1,6 @@
 ---
 layout: lesson
+root: ../..
 ---
 
 Novice R materials - following Python examples
