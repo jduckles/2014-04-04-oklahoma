@@ -179,6 +179,12 @@ When operating with a smaller vector on a larger one, the smaller one will recyc
 
 *** BREAK *** 
 
+### Commands so-far
+
+* c() - combine values into vector
+* typeof() - Show the type of an R object
+* operators - `+`, `-`, `*`, `/`, and `^`. 
+
 
 ### Numbers
 
@@ -300,7 +306,7 @@ In this way we can define functions which have default behaviors, but can have t
     }
 
 
-### 
+### Generally of form 
 
     if (condition) {
 
@@ -332,7 +338,10 @@ In this way we can define functions which have default behaviors, but can have t
         } 
     }
 
-
+### Commands so-far
+* matrix
+* array
+*
 
 ### Histograms
 
