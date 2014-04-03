@@ -290,6 +290,48 @@ In this way we can define functions which have default behaviors, but can have t
 
 ### Control structures 
 
+    myfunc <- function(temp) { 
+        if (temp > 32.0) { 
+            print("Put on shorts") 
+        }
+        else if (temp <= 32.0) {
+            print("Brrr, do you have a scarf?");
+        } 
+    }
+
+
+### 
+
+    if (condition) {
+
+    }
+    else if (another condition) {
+        
+    }
+
+    else if (yet another condition) {
+
+    }
+
+    else { 
+       # catchall 
+    }
+
+### Using multiple control structures
+
+    myfunc <- function(temp=FALSE) { 
+        if (temp == FALSE) {
+        print("Enter a temperature in Farenheit: ")
+        temp <- as.numeric(readline())
+        }
+        if (temp > 32.0) { 
+            print("Put on shorts") 
+        }
+        else if (temp <= 32.0) {
+            print("Brrr, do you have a scarf?");
+        } 
+    }
+
 
 
 ### Histograms

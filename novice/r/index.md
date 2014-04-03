@@ -1,7 +1,7 @@
 ---
 layout: lesson
 root: ../..
-title: The Unix Shell
+title: The R Language 
 level: novice
 ---
 R is an open source statistical language that is very powerful and has a large community of users. 
