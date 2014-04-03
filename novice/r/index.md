@@ -18,4 +18,6 @@ R is an open source statistical language that is very powerful and has a large c
 1. [Knitr](07-knitr-R.html)
 
 
+* [Jonah's R Lessons](R-lessons.html)
+
 </div>
