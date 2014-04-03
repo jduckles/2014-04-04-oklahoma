@@ -1,14 +1,10 @@
 ---
 layout: bootcamp
-root: ../
-venue: University of Missouri - Kansas City
+root: ../..
+venue: University of Oklahoma, Norman, OK 
 address: TBD
 country: United-States
-humandate: Feb 15-16, 2014
-humantime: 9:00 am - 4:30 pm
-startdate: 2014-02-15
-enddate: 2014-02-16
-latlng: 39.091816,-94.550378
+humandate: April 4-5, 2014
 registration: open
 instructor: ["Emily Jane McTavish", "Jonah Duckles"]
 contact: admin@software-carpentry.org
