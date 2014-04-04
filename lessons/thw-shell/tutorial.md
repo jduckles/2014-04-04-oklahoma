@@ -513,6 +513,14 @@ beginning of the file and search.
 Remember, the `man` program uses the same commands, so you can search
 documentation using "/" as well!
 
+Vi is another program for editing etx. We are not going to use it today,
+just show you how to get out of it!
+This happens occasionally.
+
+ESC : q !
+https://twitter.com/iamdevloper/status/451311421012582400/photo/1
+
+
 * * * *
 **Short Exercise**
 
