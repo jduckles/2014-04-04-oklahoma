@@ -1,8 +1,8 @@
 ---
 layout: lesson
 root: ../..
-github_username: your_user_id
-bootcamp_slug: yyyy-mm-dd-site
+github_username: snacktavish
+bootcamp_slug: umkc-materials
 title: The Unix Shell
 ---
 **Based on material by Milad Fatenejad, Sasha Wood, and Radhika Khetani**
@@ -15,7 +15,7 @@ with a keyboard instead of controlling graphical user interfaces
 (GUIs) with a mouse/keyboard combination.
 
 Use a browser to open the tutorial on github, located at:
-    http://github.com/{{page.github_username}}/{{page.bootcamp_slug}}
+    http://github.com/snacktavish/umkc-materials
 
 Click on the directory named `shell`.
 
@@ -55,11 +55,11 @@ by manipulating some experimental data from a hearing test. To get
 the data for this test, you will need internet access. Just enter the
 command:
 
-    git clone https://github.com/{{page.github_username}}/{{page.bootcamp_slug}}.git
+    git clone https://github.com/jduckles/ou-swc-data.git
 
 Followed by:
 
-    cd {{page.bootcamp_slug}}
+    cd ou-swc-data
 
 These 2 commands will grab all of the data needed for this workshop from the
 internet.
@@ -143,8 +143,8 @@ Now, let's move to a different directory. The command `cd` (change
 directory) is used to move around. Let's move into the
 `{{page.bootcamp_slug}}` directory. Enter the following command:
 
-    cd {{page.bootcamp_slug}}
-
+    cd umkc-materials
+    
 Now use the `ls` command to see what is inside this directory. You
 will see that there is an entry which is green. This means that this
 is an executable. If you use `ls -F` you will see that this file ends
@@ -190,17 +190,17 @@ give `ls` the names of other directories to view. Navigate to the
 home directory if you are not already there. Then enter the
 command:
 
-    ls {{page.bootcamp_slug}}
+    ls umkc-materials
 
-This will list the contents of the `{{page.bootcamp_slug}}` directory without
+This will list the contents of the `umkc-materials` directory without
 you having to navigate there. Now enter:
 
-    ls {{page.bootcamp_slug}}/shell
+    ls umkc-materials/cochlear
 
-This prints the contents of `shell`. The `cd` command works in a
+This prints the contents of `cochlea`. The `cd` command works in a
 similar way. Try entering:
 
-    cd {{page.bootcamp_slug}}/shell
+    cd umkc-materials/shell
 
 and you will jump directly to `shell` without having to go through
 the intermediate directory.
@@ -225,12 +225,12 @@ directory in `home` which is a directory in `/`.
 
 Now enter the following command:
 
-    cd /home/swc/{{page.bootcamp_slug}}/shell
+    cd /home/swc/umkc-materials/cochlear
 
 This jumps to `shell`. Now go back to the home directory. We saw
 earlier that the command:
 
-    cd {{page.bootcamp_slug}}/shell
+    cd umkc-materials/cochlear
 
 had the same effect - it took us to the `shell` directory. But,
 instead of specifying the absolute path
@@ -278,7 +278,7 @@ To summarize, the commands `ls ~`, `ls ~/.`, `ls ../../`, and `ls
 /home/swc` all do exactly the same thing. These shortcuts are not
 necessary, they are provided for your convenience.
 
-**Our data set: Cochlear Implants**
+**Our data set: Cochlear implants**
 
 A cochlear implant is a small electronic device that is surgically
 implanted in the inner ear to give deaf people a sense of
