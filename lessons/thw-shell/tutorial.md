@@ -2,7 +2,7 @@
 layout: lesson
 root: ../..
 github_username: snacktavish
-bootcamp_slug: umkc-materials
+bootcamp_slug: ou-swc-data 
 title: The Unix Shell
 ---
 **Based on material by Milad Fatenejad, Sasha Wood, and Radhika Khetani**
