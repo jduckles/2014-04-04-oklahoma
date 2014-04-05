@@ -156,10 +156,8 @@ We'll talk about conflicts later, but first, let's make a small change
 that won't have any conflicts and send our changes to
 your fork, the "origin."
 
-1. Create a file in the `messages` directory whose filename is your github
-id.  (This is to ensure no conflicts just yet!)  Add a line of text, perhaps a
-description of how you use, or expect to use, programming in your
-work.
+1. Create a file in the `books` directory whose filename is your github
+id.  (This is to ensure no conflicts just yet!)  Add a line of text listing your favorite book.
 
 2.  commit your change with `git add YOU` and `git commit -m "Commit message"`
 
@@ -201,6 +199,8 @@ click on "Click to create a pull request for this comparison," your
 request will be sent to the upstream repository for acceptance or
 rejection.
 
+
+----------------------------------------------------------------------------------------------------
 ## git merge : Conflicts
 
 This is the trickiest part of version control, so let's take it very
@@ -209,7 +209,7 @@ carefully.
 Conflicts happen when git tries to combine changes from two different
 branches (local and remote, development and master) but finds that 
 changes in the two branches interfere with each other and can't be
-automatically merged.
+automatically merged.4
 
 Branches are a tool that git uses to facilitate managing changes.
 They allow us to switch between states of the repository and refer to
