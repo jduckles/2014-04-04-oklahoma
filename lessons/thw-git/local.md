@@ -169,24 +169,11 @@ Open directories, browse file contents. Learn what you can in a minute.
     HEAD        config      description hooks       info        objects     refs 
 
 Step 3 : Use what you've learned. You may have noticed the file called
-description. You can describe your repository by opening the description
-file and replacing the text with a name for the repository. Mine will be
+description. You can describe your repository replacing the text with a name for the repository. Mine will be
 called "Reproducible Science". You may call yours anything you like.
 
-    $ nano description &
+    $ echo "Reproducible Science" > description
 
-Step 4 : Applications sometimes create files that are not needed. For
-example, some applications create backup or temporary files with names like'filename.bak' and 
-'filename.aux' that don't really need to be watched by version control. 
-You can ask git to ignore such files by editing
-the file '.git/info/exclude'. Edit the file to ignore files the end with '.bak'.
-
-     git ls-files --others --exclude-from=.git/info/exclude
-    # Lines that start with '#' are comments.
-    # For a project mostly in C, the following would be a good set of
-    # exclude patterns (uncomment them if you want to use them):
-    # *.[oa]
-    # *~
     
 ## git add : Adding a File To Version Control
 
@@ -198,12 +185,13 @@ create one, then we'll learn the **git add** command.
 
 Step 1 : Create a file to add to your repository.
 
-    $ nano readme.rst &
+Open a new file in your text editor, named "readme.txt" and save it to your new Good Science directory:
+  Contents should be "This is my first git repo!"
 
 Step 2 : Inform git that you would like to keep track of future changes
 in this file.
 
-    $ git add readme.rst
+    $ git add readme.txt
 
 ## git status : Checking the Status of Your Local Copy
 
@@ -255,12 +243,14 @@ by a longer explanation if necessary.  Remember, you will be writing
 commit messages for yourself as much as for anyone else.
 
 [Our repo](https://github.com/swcarpentry/bc/) should have some good commit messages.
+VI WARNING!
+If you accidentally find youreself in VI type; ESC : q !
 
 ### Exercise : Commit Your Changes
 
 Step 1 : Commit the file you've added to your repository.
 
-    $ git commit -am "This is the first commit. It adds a readme file."
+    $ git commit -m "This is the first commit. It adds a readme file."
     [master (root-commit) 1863aef] This is the first commit. It adds a readme file.
      1 files changed, 2 insertions(+), 0 deletions(-)
      create mode 100644 readme.rst
@@ -298,18 +288,10 @@ your readme.rst file, but don't yet commit it.
 
     $ git diff
 
-A summarized version of this output can be output with the --stat flag :
-
-    $ git diff --stat
-
 To see only the differences in a certain path, try:
 
     $ git diff HEAD -- [path]
 
-To see what IS staged for commit (that is, what will be committed if you
-type git commit without the -a flag), you can try :
-
-    $ git diff --cached
 
 ## git log : Viewing the History
 
