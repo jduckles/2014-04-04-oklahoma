@@ -322,7 +322,8 @@ There are some useful flags for this command, such as
 
 ## git checkout : Discarding unstaged modifications (git checkout has other purposes)
     git checkout -- filename     
-    
+Example : your cat walks on your computer while you are getting coffee, and then you accidentally save the file when closing it! NOOOOOO!!!
+
 ## git rm : Removing a file
    git rm filename   (Removes a file from the repository)
    
